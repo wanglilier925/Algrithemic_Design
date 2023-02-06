@@ -1,0 +1,291 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://cse.sc.edu/~shephejj/csce146/Labs/Lab05SortSort.html
+Subject: Lab 05
+Date: Tue, 15 Mar 2022 02:53:43 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--HSKD5lXAcVzMtCWmWJVwMYgxpOBZTsr7JfY1qeDAiU----"
+
+
+------MultipartBoundary--HSKD5lXAcVzMtCWmWJVwMYgxpOBZTsr7JfY1qeDAiU----
+Content-Type: text/html
+Content-ID: <frame-18CE670966DDBC69CE404FE18DBBA071@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cse.sc.edu/~shephejj/csce146/Labs/Lab05SortSort.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css=
+-80c03a8c-fc65-4ced-ab13-4be285940047@mhtml.blink" />
+
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered)">
+<title>Lab 05</title>
+
+
+</head>
+
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple" data-new-gr-c-s-check-l=
+oaded=3D"14.1052.0" data-gr-ext-installed=3D"">
+
+<div class=3D"WordSection1">
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:20.0pt">Lab 05</span></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:20.0pt">SORT Sort</span></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:20.0pt">&nbsp;</span></p>
+
+<p class=3D"MsoNormal"><b>Objective:</b></p>
+
+<p class=3D"MsoNormal">&nbsp;</p>
+
+<p class=3D"MsoNormal">I really like the word SORT! SORT SORT SORT SORT!&nb=
+sp; All SORTS
+of SORTS! Anyways, I like it so much that I want you to write a program to
+analyze some strings inputted from the user, count the number of times SORT
+(case doesn=92t matter) appears in each string, then sort them from least n=
+umber
+of SORT=92s to most number of SORT=92s!</p>
+
+<p class=3D"MsoNormal">&nbsp;</p>
+
+<p class=3D"MsoNormal"><b>Requirements</b>:</p>
+
+<ul style=3D"margin-top:0in" type=3D"disc">
+ <li class=3D"MsoNormal">Functionality. (80pts)</li>
+ <ul style=3D"margin-top:0in" type=3D"circle">
+  <li class=3D"MsoNormal">No Syntax Errors. (80pts*)</li>
+  <ul style=3D"margin-top:0in" type=3D"square">
+   <li class=3D"MsoNormal">*Code that cannot be compiled due to syntax erro=
+rs is nonfunctional
+       code and will receive no points for this entire section.</li>
+  </ul>
+  <li class=3D"MsoNormal">Entering Data (10pts)</li>
+  <ul style=3D"margin-top:0in" type=3D"square">
+   <li class=3D"MsoNormal">The user must be able to enter any number of Str=
+ings
+       that will be sorted.</li>
+   <li class=3D"MsoNormal">The Strings must be stored inside of a data stru=
+cture;
+       either an Array or a Data Structure of your own creation (like a Gen=
+eric
+       Linked List). Any other data structure imported or not of one=92s ow=
+n
+       creation will result in a -80pts for Functionality.</li>
+   <li class=3D"MsoNormal">All the above must apply for full credit.</li>
+  </ul>
+  <li class=3D"MsoNormal">Counting =93Sort=94 (10pts)</li>
+  <ul style=3D"margin-top:0in" type=3D"square">
+   <li class=3D"MsoNormal">The program must then count the number of times =
+the String
+       =93SORT=94 appears for each String.</li>
+   <li class=3D"MsoNormal">Case does not matter, so =93SORT=94, =93sort=94,=
+ or =93sOrT=94 would
+       all count.</li>
+   <li class=3D"MsoNormal">All the above must apply for full credit.</li>
+  </ul>
+  <li class=3D"MsoNormal">Sorting =93Sort=94 (50pts)</li>
+  <ul style=3D"margin-top:0in" type=3D"square">
+   <li class=3D"MsoNormal">Strings must be sorted based on the number of ti=
+mes that
+       =93SORT=94 appears from least to most.</li>
+   <li class=3D"MsoNormal">A sorting algorithm of one=92s on creation must =
+be used.
+       Any use of automatic sorters will result in -80pts for Functionality=
+.</li>
+   <li class=3D"MsoNormal">The program must use a sorting algorithm that is=
+ either O(nlg(n))
+       or &#415;(nlg(n)) time complexity.</li>
+   <li class=3D"MsoNormal">All the above must apply for full credit.</li>
+  </ul>
+  <li class=3D"MsoNormal">Printing the results and Restarting (10pts)</li>
+  <ul style=3D"margin-top:0in" type=3D"square">
+   <li class=3D"MsoNormal">Once sorted, the program must print out the resu=
+lts.</li>
+   <li class=3D"MsoNormal">Then the program must prompt the user if they wo=
+uld like
+       to sort anymore Strings, and must restart if they choose to sort mor=
+e
+       Strings.</li>
+   <li class=3D"MsoNormal">All the above must apply for full credit.</li>
+  </ul>
+ </ul>
+ <li class=3D"MsoNormal">Coding Style. (10pts)</li>
+ <ul style=3D"margin-top:0in" type=3D"circle">
+  <li class=3D"MsoNormal">Code functionality organized within multiple meth=
+ods
+      other than the main method, and methods organized within multiple cla=
+sses
+      where appropriate. (5pts)</li>
+  <li class=3D"MsoNormal">Readable Code (5pts)</li>
+  <ul style=3D"margin-top:0in" type=3D"square">
+   <li class=3D"MsoNormal">Meaningful identifiers for data and methods.</li=
+>
+   <li class=3D"MsoNormal">Proper indentation that clearly identifies state=
+ments
+       within the body of a class, a method, a branching statement, a loop
+       statement, etc.</li>
+   <li class=3D"MsoNormal">All the above must apply for full credit.</li>
+  </ul>
+ </ul>
+ <li class=3D"MsoNormal">Comments. (10pts)</li>
+ <ul style=3D"margin-top:0in" type=3D"circle">
+  <li class=3D"MsoNormal">Your name in the file. (5pts)</li>
+  <li class=3D"MsoNormal">At least 5 meaningful comments in addition to you=
+r name.
+      These must describe the function of the code it is near. (5pts)</li>
+ </ul>
+</ul>
+
+<p class=3D"MsoNormal"><b>&nbsp;</b></p>
+
+<p class=3D"MsoNormal">&nbsp;</p>
+
+<p class=3D"MsoNormal"><b>Example Dialog:</b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">Enter any number of strings and I will sort by SORT=92s.&nbs=
+p; Once
+you=92re done entering sentences enter =93quit=94.</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">&nbsp;</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">Sort</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">asdf</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">asdfsort</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">asdfasdfsortSortSORTsort</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">sortsortsortsortSORTSORTSORTSORT</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">qwertqwertqwertqwertsortSORT</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">sortzilla</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">quit</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">sort SORTED!</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">asdf</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">Sort</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">asdfsort</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">sortzilla</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">qwertqwertqwertqwertsortSORT</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">asdfasdfsortSortSORTsort</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">sortsortsortsortSORTSORTSORTSORT</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">&nbsp;</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">Would you like to sort more Strings?</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">No</span></b></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-size:16.0pt;font-family:&quot=
+;Courier New&quot;;
+color:#333399">Goodbye!</span></b></p>
+
+<p class=3D"MsoNormal"><b>&nbsp;</b></p>
+
+<p class=3D"MsoNormal"><b>Lab Report Questions:</b></p>
+
+<ol style=3D"margin-top:0in" start=3D"1" type=3D"1">
+ <li class=3D"MsoNormal">What is the Big O complexity for quick sort?</li>
+ <li class=3D"MsoNormal">What is the Big O complexity for merge sort?</li>
+</ol>
+
+<p class=3D"MsoNormal"><b>&nbsp;</b></p>
+
+<p class=3D"MsoNormal"><b>Finally:</b></p>
+
+<p class=3D"MsoNormal">Upload the .java file to the CSCE Dropbox</p>
+
+</div>
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--HSKD5lXAcVzMtCWmWJVwMYgxpOBZTsr7JfY1qeDAiU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-80c03a8c-fc65-4ced-ab13-4be285940047@mhtml.blink
+
+@charset "windows-1252";
+
+@font-face { font-family: Wingdings; }
+
+@font-face { font-family: "Cambria Math"; }
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0in 0in 0.0001pt; font-s=
+ize: 12pt; font-family: "Times New Roman", serif; }
+
+a:link, span.MsoHyperlink { color: blue; text-decoration: underline; }
+
+a:visited, span.MsoHyperlinkFollowed { color: purple; text-decoration: unde=
+rline; }
+
+@page WordSection1 { size: 8.5in 11in; margin: 1in 1.25in; }
+
+div.WordSection1 { page: WordSection1; }
+
+ol { margin-bottom: 0in; }
+
+ul { margin-bottom: 0in; }
+------MultipartBoundary--HSKD5lXAcVzMtCWmWJVwMYgxpOBZTsr7JfY1qeDAiU------
